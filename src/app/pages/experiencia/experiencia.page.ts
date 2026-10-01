@@ -11,7 +11,7 @@ import {
   imports: [IonContent, IonHeader, IonTitle, IonToolbar, IonButtons, IonMenuButton],
 })
 export class ExperienciaPage {
-  videoId = 'TU_ID_DE_VIDEO'; // <-- cambia esto
+  videoId = 'GovK6nQ760k'; 
   videoUrl: SafeResourceUrl;
 
   constructor(private sanitizer: DomSanitizer) {
