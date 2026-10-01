@@ -1,0 +1,8 @@
+.perfil { text-align: center; margin-top: 24px; }
+.foto {
+  width: 192px;   /* 2 pulgadas a 96 dpi */
+  height: 192px;
+  object-fit: cover;
+  border: 2px solid var(--ion-color-primary);
+  border-radius: 4px;
+}

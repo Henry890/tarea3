@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start"><ion-menu-button></ion-menu-button></ion-buttons>
+    <ion-title>Tabla de Multiplicar</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-item>
+    <ion-input type="number" label="Número" labelPlacement="floating" [(ngModel)]="numero"></ion-input>
+  </ion-item>
+  <ion-button expand="block" class="ion-margin-top" (click)="generar()">Mostrar tabla</ion-button>
+
+  <ion-list>
+    @for (f of filas; track f) {
+      <ion-item><ion-label>{{ f }}</ion-label></ion-item>
+    }
+  </ion-list>
+</ion-content>
